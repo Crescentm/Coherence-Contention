@@ -1,0 +1,48 @@
+# Build outputs
+/build/
+/result/
+/results/
+/out/
+/tmp/
+/exp41c_host_only
+*.o
+*.a
+*.so
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+.*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+
+# Generated VM and kernel artifacts
+*.img
+*.qcow2
+*.iso
+*.data
+*.log
+qemu.log
+qemu_console.log
+debugcon.log
+
+# Python/local environment
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local/editor metadata
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.agents/
+.codex
+
+# Large third-party source trees should be fetched by script/submodule.
+/third_party/
