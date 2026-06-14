@@ -1,4 +1,6 @@
-# Cohere
+# Coherence-Contention
+
+Reproducing coherence- and contention-based cache side-channel signals on AMD SEV-SNP.
 
 This repository contains the source code, experiment scripts, and analysis utilities for coherence-contention experiments around AMD SEV/SNP environments.
 
